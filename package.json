@@ -1,6 +1,6 @@
 {
-  "name": "my-website",
-  "homepage": "https://vyasakanksha.github.io/webdev-starter-materialUI/",
+  "name": "designhotel",
+  "homepage": "https://dineshdhumak.github.io/designhotel/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build && cp build/index.html build/404.html"
+    "build": "react-scripts build && @powershell copy './build/index.html' 'build/404.html"
   },
   "eslintConfig": {
     "extends": [
